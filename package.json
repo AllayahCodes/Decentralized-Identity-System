@@ -1,0 +1,25 @@
+{
+  "name": "decentralized-identity-system",
+  "version": "1.0.0",
+  "description": "Blockchain-based decentralized identity and verifiable claims system",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "deploy-local": "npx hardhat run scripts/deploy.js --network hardhat",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean"
+  },
+  "keywords": ["blockchain", "identity", "verifiable-claims", "ethereum", "solidity"],
+  "author": "Allayah Anderson",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1"
+  }
+}
